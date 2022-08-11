@@ -1,12 +1,52 @@
-html{
-    height: auto;
+html {
+    background-color: white;
+    color: black;
 }
-body{
-    height: auto;
+
+#hRow1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-header{
-    height: auto;
+
+#hCol1 {
+    display: flex;
+    flex-direction: column;
+
 }
-h1{
-    height: auto;
+
+#hCol3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#hRow3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#hRow4 {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+table
+{
+    column-count: 2;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.ingredients {
+	background-image: url('IMG/list-bg.png');
+    background-repeat: no-repeat;
 }
